@@ -261,6 +261,14 @@ local default_plugins = {
       require("which-key").setup(opts)
     end,
   },
+
+  -- smart split 
+  {
+    "mrjones2014/smart-splits.nvim",
+    init = function ()
+      require("smart-splits").setup()
+    end
+  },
 }
 
 local config = require("core.utils").load_config()
