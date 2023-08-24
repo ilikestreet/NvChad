@@ -47,12 +47,12 @@ local options = {
     mappings = {
       n = { ["q"] = require("telescope.actions").close },
       i = { 
-        ["<C-u"] = false,
-        ["<C-d"] = false,
-        ["<C-j"] = require("telescope.actions").move_selection_next,
-        ["<C-k"] = require("telescope.actions").move_selection_previous,
-        ["<C-h"] = require("telescope.actions").preview_scrolling_down,
-        ["<C-l"] = require("telescope.actions").preview_scrolling_up,
+        ["<C-u>"] = false,
+        ["<C-d>"] = false,
+        ["<C-j>"] = require("telescope.actions").move_selection_next,
+        ["<C-k>"] = require("telescope.actions").move_selection_previous,
+        ["<C-h>"] = require("telescope.actions").preview_scrolling_down,
+        ["<C-l>"] = require("telescope.actions").preview_scrolling_up,
       }
     },
   },
